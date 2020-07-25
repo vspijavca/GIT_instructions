@@ -10,4 +10,13 @@
 4.git status
 5.git commit -m "First commit."
 6.git remote add origin https://github.com/vspijavca/ls2.git
-7.git push origin master
+
+  if Git error - Fatal: remote origin already exists: 
+  
+  git remote remove origin
+
+  and once again:
+  
+  git remote add origin https://github.com/vspijavca/ls2.git
+
+8.git push origin master
