@@ -1,0 +1,13 @@
+9:14 25.07.2020
+
+последовательность при добавлении локального проэкта на git remote
+=====================================================================================
+Запускаем GIT из папки из которой хотим все загрузить
+
+1.git init
+2.git status
+3.git add .
+4.git status
+5.git commit -m "First commit."
+6.git remote add origin https://github.com/vspijavca/ls2.git
+7.git push origin master
